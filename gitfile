@@ -1,0 +1,15 @@
+how can we merge in our branch in main branch
+
+first we will push the code in our branch 
+then we will checkout the branch into the main
+then we will get pull  (main pull)
+then we merge our branch into main branch below command for merge
+git merge my_branch_name 
+then again we will come back to our branch
+
+
+
+
+how can we colne the code
+git clone repository url
+we will do this in git bash
