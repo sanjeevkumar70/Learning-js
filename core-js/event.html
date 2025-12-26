@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <button id="btn">Click me</button>
+
+    <h1 id="para">Shresta</h1>
+
+    <button id="btn1">Increase</button>
+    <h1 id="counter">0</h1>
+
+
+    <script>
+        const a = document.getElementById('btn');
+        const b = document.getElementById('para');
+
+        a.addEventListener('click', (e) => {
+            b.innerHTML = 'Sanjeev'
+        })
+
+
+        const c = document.getElementById('btn1');
+        const d = document.getElementById('counter');
+        var count = 0;
+
+        c.addEventListener('click', () => {
+            count = count + 1;
+            d.innerHTML = count;
+        })
+
+    </script>
+
+</body>
+
+</html>
