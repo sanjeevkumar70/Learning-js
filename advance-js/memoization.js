@@ -8,16 +8,16 @@ function memoizedFactorial() {
       if (n <= 1) return 1;
 
       const result = n * fact(n - 1);
-      
-      cache[n] = result;
-      return result;
-  };
-}
+        
+        cache[n] = result;
+        return result;
+    };
+  }
 
-// let t1 = performance.now();
-// slowFactorial(30000);   // VERY HEAVY
-// let t2 = performance.now();
-// console.log("Slow factorial:", t2 - t1, "ms");
+  // let t1 = performance.now();
+  // slowFactorial(30000);   // VERY HEAVY
+  // let t2 = performance.now();
+  // console.log("Slow factorial:", t2 - t1, "ms");
 
 let t3 = performance.now();
 
